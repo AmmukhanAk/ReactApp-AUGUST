@@ -1,11 +1,16 @@
 
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import { Combined } from './components/allCombined/Combined';
+import Home from './components/routes/Home';
 
 function App() {
   return (
-    <div className="App">
-    <h1>Hello world</h1>
-    <h1>Hello world</h1>
+    <div>
+    
+     <BrowserRouter>
+     <Home/>
+     </BrowserRouter>
     </div>
   );
 }
