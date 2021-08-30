@@ -18,7 +18,7 @@ export const TopNav = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>
                         <Nav>
-                            <NavLink to="/">Home</NavLink>
+                            <NavLink to="/                                                    ">Home</NavLink>
                             <NavLink to="/products">Products</NavLink>
                             <NavLink to="/contact">Contact</NavLink>
                             <NavLink to="/about">About</NavLink>

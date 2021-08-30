@@ -7,6 +7,7 @@ import { Cart } from "./Cart"
 import { Login } from './Login';
 import { AboutUS } from './AboutUS';
 import { Contact } from './Contact';
+import { FooterM } from "./FooterM"
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
                         <Route path="/login" component={Login} />
                     </div>
                 </Switch>
+                <FooterM />
             </Router>
         </div>
     );
